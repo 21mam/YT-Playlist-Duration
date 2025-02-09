@@ -1,8 +1,8 @@
 from googleapiclient.discovery import build
 import isodate
 
-API_KEY = "AIzaSyCJFZwMAhMgnAM-O9EJySa5rLs4YOUZ2HY"
-playlist_id = "PLGjplNEQ1it_oTvuLRNqXfz_v_0pq6unW"
+API_KEY = "AIzaSyCJFZwMAhMgnAM-O9EJySa5rLs4YOUZ2HY" ## My API key
+playlist_id = "PLGjplNEQ1it_oTvuLRNqXfz_v_0pq6unW" ## Here playlist id
 
 youtube = build("youtube", "v3", developerKey=API_KEY)
 
